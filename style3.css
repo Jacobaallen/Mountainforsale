@@ -6,7 +6,7 @@
 body {
 	font-family:Arial;
 	color:#E0E6EB;
-	background-image: linear-gradient(white, lightbluegray);
+	background-color: white;
 }
 .for-sale-drop-down-menu select{
 	display: flex;
@@ -43,7 +43,7 @@ a:link{
 	text-decoration: none;
 	font-size: 10px;
 	cursor: pointer;
-} 
+}
 header{
 	display: flex;
 	flex-direction: row;
@@ -82,7 +82,7 @@ header{
 	background-color: white;
 	border-bottom: 1px solid #E0E6EB;
 }
-search{
+.search{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -92,9 +92,9 @@ search{
 	margin-left: 0;
 	margin-right:0;
 	margin-top: 50px;
-		
+
 }
-.menu-images {
+.menuImages {
 	display: inline-block;
 }
 .Prices select {
@@ -132,7 +132,7 @@ search{
 	color: lightslategray;
 	margin-left: 580px;
 }
-menu {
+.menu {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
